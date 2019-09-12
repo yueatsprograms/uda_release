@@ -1,0 +1,4 @@
+CUDA_VISIBLE_DEVICES=3 python main.py --width 16 --source stl10 --target cifar10 --num_batches_per_test 10000 --nepoch 150 --milestone_1 100 --milestone_2 125 --outf output/stl_cifar
+CUDA_VISIBLE_DEVICES=3 python main.py --width 16 --source stl10 --target cifar10 --num_batches_per_test 10000 --nepoch 150 --milestone_1 100 --milestone_2 125 --rotation --outf output/stl_cifar_r
+CUDA_VISIBLE_DEVICES=3 python main.py --width 16 --source stl10 --target cifar10 --num_batches_per_test 10000 --nepoch 150 --milestone_1 100 --milestone_2 125 --rotation --quadrant --outf output/stl_cifar_rq
+CUDA_VISIBLE_DEVICES=3 python main.py --width 16 --source stl10 --target cifar10 --num_batches_per_test 10000 --nepoch 150 --milestone_1 100 --milestone_2 125 --rotation --quadrant --flip --outf output/stl_cifar_rqf

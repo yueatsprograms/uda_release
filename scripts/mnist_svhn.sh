@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --source mnist --nepoch 35 --milestone_1 20 --milestone_2 30  --width 8 --target svhn_extra --outf output/mnist_svhn
+CUDA_VISIBLE_DEVICES=0 python main.py --source mnist --nepoch 35 --milestone_1 20 --milestone_2 30  --width 8 --target svhn_extra --rotation --outf output/mnist_svhn_r
+# CUDA_VISIBLE_DEVICES=0 python main.py --source mnist --nepoch 35 --milestone_1 20 --milestone_2 30  --width 8 --target svhn_extra --rotation --quadrant --outf output/mnist_svhn_rq
