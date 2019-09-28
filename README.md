@@ -1,4 +1,4 @@
-Code release for [Unsupervised Domain Adaptation through Self-Supervision](https://arxiv.org/abs/1909.11825).
+Code release for [Unsupervised Domain Adaptation through Self-Supervision](https://arxiv.org/abs/1909.11825).\
 Our code requires pytorch version 1.0 or higher.
 
 1. Modify the scripts in <code>scripts</code>. <code>--outf</code> sets the output folder, and <code>--data_root</code> sets the input data directory.
