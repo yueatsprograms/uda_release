@@ -5,3 +5,5 @@ Our code requires pytorch version 1.0 or higher.
 2. Run the scripts in <code>scripts/</code>. Each script corresponds to a column in our results table.
 3. <code>show_table.py</code> prints the results and plots the error curves. For ease of comparison, two results are printed: the smallest error and the early stopping error according to our selection heuristics.
 4. <code>figure_mmd.py</code> reproduces the two convergence figures shown in our paper.
+
+The datasets used for each command are downloaded automatically to <code>--data_root</code>.
