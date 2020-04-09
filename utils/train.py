@@ -3,8 +3,8 @@ from utils.get_mmd import get_mmd
 
 def test(dataloader, model):
     model.eval()
-    correct = 0
-    total = 0
+    correct = 0.0
+    total = 0.0
     for batch_idx, (inputs, labels) in enumerate(dataloader):
         inputs, labels = inputs.cuda(), labels.cuda()
         with torch.no_grad():

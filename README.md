@@ -1,5 +1,6 @@
 Code release for [Unsupervised Domain Adaptation through Self-Supervision](https://arxiv.org/abs/1909.11825).\
 Our code requires pytorch version 1.0 or higher.
+install with `pip install -r requirements.txt --user`
 
 1. Modify the scripts in <code>scripts/</code>. <code>--outf</code> sets the output folder, and <code>--data_root</code> sets the input data folder.
 2. Run the scripts in <code>scripts/</code>. Each script corresponds to a column in our results table.
